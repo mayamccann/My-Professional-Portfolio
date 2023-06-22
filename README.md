@@ -2,7 +2,7 @@
 Applying Advanced CSS Skills to Showcase a Created Web Application
 
 ## 💡Background
-For this assignment, the goal is to create a professional portfolio to display skills that are learned throughout the UConn Coding Bootcamp. This challenge enforces the use of HTML and CSS methods. The most important aspect of building a portfolio is to showcase and share your skills with those within the computer science community.
+For this assignment, the goal is to create a professional portfolio to display skills that are learned throughout the UConn Coding Bootcamp up until this time. This challenge enforces the use of HTML and CSS methods. The most important aspect of building a portfolio is to showcase and share your skills with those within the computer science community. 
 
 ## 💡 Description
 
@@ -33,6 +33,8 @@ The following image shows the web application's appearance and functionality (Br
 
 Building a Webpage from Scratch to display My Professional Portfolio!
 
+
+
 ## 💡Grading Requirements : Brief Summary
 Technical Acceptance Criteria : 40%
 Deployment : 32%
@@ -51,6 +53,6 @@ Once the activity is completed, dive deeper into the importance of appearance of
 How can I use my HTML and CSS skills to improve the appearance of my webpage? What is the effect of appearance on Users?
 
 ## 💡Credits
-Code Source : applied throughout the entire process of rebuilding and refactoring for this web application! Credits are devoted to the UConn Coding Boot Camp Support Staff (Instructional Staff, TA, Tutors) and the program's activities and challenges materials and BootCamp Spot/Canvas and additional resources given throughout the course and outside research utilizing the Google Chrome browser of information relating to examples of HTML elements and CSS selectors and properties as well as further information utiliized when building this code received from BootCamp Spot/Canvas.
+Code Source : applied throughout the entire process of rebuilding and refactoring for this web application! Credits are devoted to the UConn Coding Boot Camp Support Staff (Instructional Staff, TA, Tutors) and the program's activities and challenges materials and BootCamp Spot/Canvas and additional resources given throughout the course and outside research utilizing the Google Chrome browser of information relating to examples of HTML elements and CSS selectors and properties as well as further information utiliized when building this code received from BootCamp Spot/Canvas. Credits are reserved for resources besides my knowledge and skills to assist in completing this module challenge. Each assignment, material is constantly learned when managing the assignments. 
 
 🏆 Module 2 Challenge from the UConn Coding Bootcamp Cohort May 2023 🏆
