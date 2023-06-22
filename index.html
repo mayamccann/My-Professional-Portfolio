@@ -1,18 +1,21 @@
+ <!-- Define Document type-->
 <!DOCTYPE html>
 <html lang="en">
+<!-- add reset to head and create title-->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Maya's Professional Portfolio</title>
 </head>
+<!-- Add Header in Body-->
 <body>
     <header>
+        <!-- h1 for webpage title, navigation bar for sections-->
             <div class="header-title">
                 <h1>Maya McCann</h1>
             </div>
+            <!-- &nbsp = nonbreaking space-->
             <nav class="navigation">
                 <ul id="list">
                     <li><a href="#aboutme">&nbsp;About Me&nbsp;</a></li>
@@ -21,11 +24,12 @@
                 </ul>
             </nav>
     </header>
-
+<!-- Close header, Begin main-->
     <main>
        
         <section class="section-wrapper" id="aboutme">
             <div class= "section-title">
+                <!-- about Me Section, Add Summary-->
                 <h2>About Me</h2>
             </div>
             <section class="about-me">
@@ -37,16 +41,18 @@
 
         <section class="section-wrapper" id="work">
             <div class= "section-title">
+                <!-- Add multiple activities/projects in Work-->
                 <h3>Work</h3>
             </div>
             <section class="work">
-                <!-- Application of Javascript for Section : Work ! -->
+                <!-- Application of Javascript for Section : Work, can add links to deployed for challenges-->
                 <figure class="work-feature-head horiseon" onclick="window.location='https://github.com/mayamccann/module1challenge'">
                     <figcaption class="work-feature-title">
                         <h4>Horiseon</h4>
                         <p><em>Refactoring Code for Horiseon Webpage</em></p>
                     </figcaption>
                 </figure>
+                <!-- Insert photo for larger viewing for the click feature for activities-->
                 <figure class="work-feature miniproject" onclick="window.location='01-app-desktop.png'">
                     <figcaption class="work-feature-title">
                         <h4>CSS Snippet Cheatsheet</h4>
@@ -59,6 +65,7 @@
                         <p><em>CSS Snippet Cheatsheet Wireframe</em></p>
                     </figcaption>
                 </figure>
+                <!-- Add description from Activity image mockup-->
                 <figure class="work-feature selectors" onclick="window.location='selectors.png'">
                     <figcaption class="work-feature-title">
                         <h4>Selectors</h4>
@@ -71,7 +78,7 @@
                         <p><em>Welcome to the store! Camera Product Page</em></p>
                     </figcaption>
                 </figure>
-
+                <!-- close!-->
             </section>
         </section>
 
@@ -79,6 +86,7 @@
             <div class= "section-title">
                 <h5>Contact Me</h5>
             </div>
+            <!-- create fake contact information for module challenge purposes-->
             <section class="contact-options">
                 <ul id="contactlist" class="contactlist">
                     <li><a href="Phone:860-000-0000">000-000-0000</a></li>
@@ -88,7 +96,7 @@
                 </ul>
             </section>
         </footer>
-        
+        <!-- Close all sections, footer, main, body, and html document-->
     </main>
 </body>
 </html>
