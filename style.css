@@ -188,14 +188,14 @@ main {
     background-repeat: no-repeat;
 }
 
-.homestead {
-    background-image: url(../images/rural-home.jpeg);
+.selectors {
+    background-image: url(selectors.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-.travel {
-    background-image: url(../images/ecuador.jpeg);
+.flexbox {
+    background-image: url(flexboxplacement.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
