@@ -170,8 +170,8 @@ main {
     color: var(--primary-color);
 }
 
-.stargazer {
-    background-image: url(../images/stargazing.jpeg);
+.horiseon {
+    background-image: url(Horiseon\ \(1\).png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
