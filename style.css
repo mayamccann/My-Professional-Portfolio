@@ -1,12 +1,12 @@
 :root{
-    --primary-color: #4b6584;
-    --secondary-color: #d1d8e0;
-    --bright: #fff;
-    --accent-color-1: #53ebe3;
+    --blue-gray: #4b6584;
+    --light-gray: #d1d8e0;
+    --white: #fff;
+    --pastel-green: #bae7a0;
 }
 
 body {
-    background-color: var(--bright);
+    background-color: var(--white);
     font-family: 'open sans', sans-serif;
     font-size: 16px;
     display: flex;
@@ -19,25 +19,25 @@ h1 {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--blue-gray);
     font-size: 275%;
     font-weight: 600;
 }
 
 h3 {
-    color: var(--primary-color);
+    color: var(--blue-gray);
     font-size: 275%;
     font-weight: 600;
 }
 
 h4 {
-    color: var(--primary-color);
+    color: var(--blue-gray);
     font-size: 150%;
     font-weight: 600;
 }
 
 h5 {
-    color: var(--primary-color);
+    color: var(--blue-gray);
     font-size: 275%;
     font-weight: 600;
 }
@@ -48,14 +48,14 @@ header {
     justify-content: space-between;
     position:sticky;
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--blue-gray);
 }
 
 header .header-title{
-    color: var(--bright);
+    color: var(--white);
     margin-top: 30px;
     margin: 10px 0px 15px 0px;
-    background-color: var(--accent-color-1);
+    background-color: var(--pastel-green);
     padding: 5px 20px 5px 125px;
     min-width: fit-content;
     height: 75px;
@@ -68,9 +68,9 @@ nav {
 
 nav ul a {
     margin-right: 20px;
-    color: var(--bright);
+    color: var(--white);
     text-decoration: none;
-    border-bottom: 4px solid var(--bright);
+    border-bottom: 4px solid var(--white);
     display: inline;
     list-style-type: none;
     font-size: 20px;
@@ -91,7 +91,7 @@ main {
 }
 
 .section-title {
-    border-right: 5px solid var(--primary-color);
+    border-right: 5px solid var(--blue-gray);
     padding: 0px 20px 0px 20px;
     width: 25%;
     text-align: right;
@@ -114,8 +114,8 @@ main {
     display:flex;
     width: 100%;
     height: 350px;
-    background-color: var(--primary-color);
-    border: 5px solid var(--accent-color-1);
+    background-color: var(--blue-gray);
+    border: 5px solid var(--pastel-green);
     align-self: flex-end;
     cursor: pointer;
 }
@@ -124,15 +124,15 @@ main {
     display: flex;
     width: 49.5%;
     height: 150px;
-    background-color: var(--primary-color);
-    border: 5px solid var(--accent-color-1);
+    background-color: var(--blue-gray);
+    border: 5px solid var(--pastel-green);
     margin-top: 10px;
     cursor: pointer;
 }
 
 .work-feature-title {
-    color: var(--primary-color);
-    background-color: var(--accent-color-1);
+    color: var(--blue-gray);
+    background-color: var(--pastel-green);
     height: 75px;
     position:relative;
     padding: 10px 10px 0px 10px;
@@ -158,16 +158,16 @@ main {
 }
 
 .contact-options ul a {
-    color: var(--primary-color);
+    color: var(--blue-gray);
     text-decoration: none;
     margin-right: 60px;
     font-size: 20px;
     font-weight: 600;
-    border-bottom: 4px solid var(--primary-color);
+    border-bottom: 4px solid var(--blue-gray);
 }
 
 .contact-options ul a:visited {
-    color: var(--primary-color);
+    color: var(--blue-gray);
 }
 
 .horiseon {
@@ -223,7 +223,7 @@ ul#contactlist li {
     .section-title {
         width: 100%;
         text-align: center;
-        border-bottom: 5px solid var(--primary-color);
+        border-bottom: 5px solid var(--blue-gray);
         border-right: 0px;
         margin-bottom: 15px;
     }
