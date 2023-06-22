@@ -1,3 +1,5 @@
+/*colors used throughout HTML/CSS files, :root=selector to select element that represents 
+the root of the document, always include var*/
 :root{
     --blue-gray: #4b6584;
     --light-gray: #d1d8e0;
@@ -5,14 +7,16 @@
     --pastel-green: #bae7a0;
 }
 
+/*test out fonts and font-sizes*/
 body {
-    background-color: var(--white);
-    font-family: 'open sans', sans-serif;
-    font-size: 16px;
-    display: flex;
+    display:flex;
     flex-direction: column;
+    background-color: var(--white);
+    font-family: 'open sans' , sans-serif;
+    font-size: 16px;
 }
 
+/*Review : h1-h6 and how it connects with HTML file*/
 h1 {
     font-size: 275%;
     font-weight: 400;
@@ -42,59 +46,66 @@ h5 {
     font-weight: 600;
 }
 
+/*justify-content=how browser distributes space between and around content items along main axis of 
+flex container and inline axis of grid container*/
 header {
+    background-color: var(--blue-gray);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position:sticky;
     width: 100%;
-    background-color: var(--blue-gray);
 }
+/*position:sticky=positioned based on user's scroll position, sets position 
+according to parent element*/
 
 header .header-title{
     color: var(--white);
+    background-color: var(--pastel-green);
     margin-top: 30px;
     margin: 10px 0px 15px 0px;
-    background-color: var(--pastel-green);
     padding: 5px 20px 5px 125px;
     min-width: fit-content;
     height: 75px;
 }
 
+/*Navigation bar*/
 nav {
+    margin: 2px 30px 0px 0px;
     align-self: center;
-    margin: 1px 25px 0px 0px;
 }
 
 nav ul a {
-    margin-right: 20px;
     color: var(--white);
-    text-decoration: none;
     border-bottom: 4px solid var(--white);
+    text-decoration: none;
     display: inline;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 25px;
+    margin-right: 20px;
 }
 
+/*Display: FLEX*/
 main {
-    margin-top: 25px;
-    padding: 10px;
+    margin-top: 30px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
 }
 
+/*connect HTML elements with CSS properties in sections*/
 .section-wrapper {
-    display: flex;
-    align-self: center;
     width: 75%;
     margin-bottom: 40px;
+    display: flex;
+    align-self: center;
 }
 
 .section-title {
-    border-right: 5px solid var(--blue-gray);
     padding: 0px 20px 0px 20px;
     width: 25%;
     text-align: right;
+    border-right: 5px solid var(--blue-gray);
 }
 
 .about-me {
@@ -105,27 +116,29 @@ main {
 .work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0px 0px 0px 30px;
     width: 80%;
+    justify-content: space-between;
+
 }
 
+/*align-self=overrides grid/flex item's align-items value*/
 .work-feature-head{
+    background-color: var(--blue-gray);
+    border: 5px solid var(--pastel-green);
     display:flex;
     width: 100%;
     height: 350px;
-    background-color: var(--blue-gray);
-    border: 5px solid var(--pastel-green);
     align-self: flex-end;
     cursor: pointer;
 }
 
 .work-feature{
-    display: flex;
-    width: 49.5%;
-    height: 150px;
     background-color: var(--blue-gray);
     border: 5px solid var(--pastel-green);
+    display: flex;
+    width: 49.5%;
+    height: 140px;
     margin-top: 10px;
     cursor: pointer;
 }
@@ -140,36 +153,36 @@ main {
     align-self: flex-end;
 }
 
-/* Hover effects */
+/* Adding Hover! and other appearance features*/
 .work-feature-head:hover,
 .work-feature:hover{
     opacity: 0.75;
 }
-
+/* test out px and widths*/
 .contact-options{
     display: flex;
-    padding: 0px 0px 0px 30px;
-    width: 80%;
+    padding: 0px 0px 0px 35px;
+    width: 85%;
 }
 
 .contact-options ul {
-    text-decoration: none;
     align-self: center;
+    text-decoration: none;
 }
 
 .contact-options ul a {
     color: var(--blue-gray);
+    border-bottom: 5px solid var(--blue-gray);
+    font-size: 25px;
+    /* font-weight=thickness of font*/
+    font-weight: 550;
     text-decoration: none;
-    margin-right: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    border-bottom: 4px solid var(--blue-gray);
+    margin-right: 50px;
 }
 
-.contact-options ul a:visited {
-    color: var(--blue-gray);
-}
 
+/*images from activities mockups, all photos in css will be the same
+background-repeat=sets how background images are repeated*/
 .horiseon {
     background-image: url(Horiseon\ \(1\).png);
     background-size: 100% 100%;
@@ -200,15 +213,16 @@ main {
     background-repeat: no-repeat;
 }
 
-/* Inline list */
+/*CSS for navigation bar and footer/Contact Info section*/
 ul#list li {
     display: inline;
+
 }
 ul#contactlist li {
     display: inline;
 }
 
-/* Responsive Rules */
+/* CSS File : resonpsiveness, connect with sections, header, footer */
 @media only screen and (max-width: 768px) {
     .work {
         flex-direction: column;
@@ -217,15 +231,16 @@ ul#contactlist li {
         width: 100%;
     }
     .section-wrapper {
-        flex-wrap: wrap;
-        width: 100%;
+    width: 100%;
+    flex-wrap: wrap;
     }
     .section-title {
-        width: 100%;
         text-align: center;
         border-bottom: 5px solid var(--blue-gray);
+        margin-bottom: 20px;
+        width: 100%;
         border-right: 0px;
-        margin-bottom: 15px;
+    
     }
     .contactlist a {
         line-height: 50px;
