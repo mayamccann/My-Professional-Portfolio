@@ -33,3 +33,24 @@ The following image shows the web application's appearance and functionality (Br
 
 Building a Webpage from Scratch to display My Professional Portfolio!
 
+## 💡Grading Requirements : Brief Summary
+Technical Acceptance Criteria : 40%
+Deployment : 32%
+Application Quality : 15%
+Repository Quality : 13%
+Review : Submit URLs : Deployed and GitHub Repository
+
+## 💡 Hints
+This assignment forces you to utilize your CSS skills to create an improved application! Focus on the interactivity of this webpage.
+
+Appearance is the User's first impression! The appearance is what will allow the user to stay engaged with your webpage.
+
+## 🏆 Bonus
+Once the activity is completed, dive deeper into the importance of appearance of a webpage :
+
+How can I use my HTML and CSS skills to improve the appearance of my webpage? What is the effect of appearance on Users?
+
+## 💡Credits
+Code Source : applied throughout the entire process of rebuilding and refactoring for this web application! Credits are devoted to the UConn Coding Boot Camp Support Staff (Instructional Staff, TA, Tutors) and the program's activities and challenges materials and BootCamp Spot/Canvas and additional resources given throughout the course and outside research utilizing the Google Chrome browser of information relating to examples of HTML elements and CSS selectors and properties as well as further information utiliized when building this code received from BootCamp Spot/Canvas.
+
+🏆 Module 2 Challenge from the UConn Coding Bootcamp Cohort May 2023 🏆
