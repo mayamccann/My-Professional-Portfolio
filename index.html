@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <title>Maya McCann Portfolio</title>
+</head>
+<body>
+    <header>
+            <div class="header-title">
+                <h1>Maya McCann</h1>
+            </div>
+            <nav class="navigation">
+                <ul id="list">
+                    <li><a href="#aboutme">&nbsp;About Me&nbsp;</a></li>
+                    <li><a href="#work">&nbsp;Work&nbsp;</a></li>
+                    <li><a href="#contact">&nbsp;Contact Me&nbsp;</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+       
+        <section class="section-wrapper" id="aboutme">
+            <div class= "section-title">
+                <h2>About Me</h2>
+            </div>
+            <section class="about-me">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia, augue sit amet sollicitudin cursus, lorem urna volutpat nulla, eu tempus felis risus commodo massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tristique sem nunc, a facilisis nunc sodales eget. Ut ut tempor lacus, suscipit pulvinar ante.</p>
+                <p>&nbsp;<br>Phasellus finibus orci id aliquet blandit. Proin placerat fermentum euismod. Cras vel dui nec massa dapibus vehicula. Aenean auctor pretium velit quis malesuada. Pellentesque quis commodo leo. Aenean volutpat lorem non quam accumsan, et euismod nisi mattis.</p>
+            </section>
+        </section>
+
+        <section class="section-wrapper" id="work">
+            <div class= "section-title">
+                <h3>Work</h3>
+            </div>
+            <section class="work">
+                <!-- This method of using JS to make the entire figure a link seemed the best choice after some research. -->
+                <figure class="work-feature-head stargazer" onclick="window.location='apps/stargazer.html'">
+                    <figcaption class="work-feature-title">
+                        <h4>Stargazer</h4>
+                        <p><em>Your "clear skies" stargazing weather forecast</em></p>
+                    </figcaption>
+                </figure>
+                <figure class="work-feature calculator" onclick="window.location='apps/calculator.html'">
+                    <figcaption class="work-feature-title">
+                        <h4>Calculator</h4>
+                        <p><em>A simple tool</em></p>
+                    </figcaption>
+                </figure>
+                <figure class="work-feature reptile-tracker" onclick="window.location='apps/reptile-tracker.html'">
+                    <figcaption class="work-feature-title">
+                        <h4>Reptile Tracker</h4>
+                        <p><em>Manage reptile husbandry</em></p>
+                    </figcaption>
+                </figure>
+                <figure class="work-feature homestead" onclick="window.location='apps/homestead-tracker.html'">
+                    <figcaption class="work-feature-title">
+                        <h4>Homestead Tracker</h4>
+                        <p><em>Manage rural properties</em></p>
+                    </figcaption>
+                </figure>
+                <figure class="work-feature travel" onclick="window.location='apps/travel-guide.html'">
+                    <figcaption class="work-feature-title">
+                        <h4>Travel Guide</h4>
+                        <p><em>How to plan a getaway</em></p>
+                    </figcaption>
+                </figure>
+
+            </section>
+        </section>
+
+        <footer class="section-wrapper" id="contact">
+            <div class= "section-title">
+                <h5>Contact Me</h5>
+            </div>
+            <section class="contact-options">
+                <ul id="contactlist" class="contactlist">
+                    <li><a href="Phone:860-000-0000">000-000-0000</a></li>
+                    <li><a href="noemail@gmail.com">&nbsp;Email&nbsp;Me&nbsp;</a></li>
+                    <li><a href="https://www.linkedin.com/in/druludwig/" target="_new">&nbsp;LinkedIn&nbsp;</a></li>
+                    <li><a href="https://github.com/druludwig" target="_new">&nbsp;GitHub&nbsp;</a></li>
+                </ul>
+            </section>
+        </footer>
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,237 @@
+:root{
+    --primary-color: #4b6584;
+    --secondary-color: #d1d8e0;
+    --bright: #fff;
+    --accent-color-1: #53ebe3;
+}
+
+body {
+    background-color: var(--bright);
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 275%;
+    font-weight: 400;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 275%;
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-size: 275%;
+    font-weight: 600;
+}
+
+h4 {
+    color: var(--primary-color);
+    font-size: 150%;
+    font-weight: 600;
+}
+
+h5 {
+    color: var(--primary-color);
+    font-size: 275%;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:sticky;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+header .header-title{
+    color: var(--bright);
+    margin-top: 30px;
+    margin: 10px 0px 15px 0px;
+    background-color: var(--accent-color-1);
+    padding: 5px 20px 5px 125px;
+    min-width: fit-content;
+    height: 75px;
+}
+
+nav {
+    align-self: center;
+    margin: 1px 25px 0px 0px;
+}
+
+nav ul a {
+    margin-right: 20px;
+    color: var(--bright);
+    text-decoration: none;
+    border-bottom: 4px solid var(--bright);
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-wrapper {
+    display: flex;
+    align-self: center;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    border-right: 5px solid var(--primary-color);
+    padding: 0px 20px 0px 20px;
+    width: 25%;
+    text-align: right;
+}
+
+.about-me {
+    padding: 0px 0px 0px 30px;
+    width: 80%;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 0px 0px 30px;
+    width: 80%;
+}
+
+.work-feature-head{
+    display:flex;
+    width: 100%;
+    height: 350px;
+    background-color: var(--primary-color);
+    border: 5px solid var(--accent-color-1);
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.work-feature{
+    display: flex;
+    width: 49.5%;
+    height: 150px;
+    background-color: var(--primary-color);
+    border: 5px solid var(--accent-color-1);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.work-feature-title {
+    color: var(--primary-color);
+    background-color: var(--accent-color-1);
+    height: 75px;
+    position:relative;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+/* Hover effects */
+.work-feature-head:hover,
+.work-feature:hover{
+    opacity: 0.75;
+}
+
+.contact-options{
+    display: flex;
+    padding: 0px 0px 0px 30px;
+    width: 80%;
+}
+
+.contact-options ul {
+    text-decoration: none;
+    align-self: center;
+}
+
+.contact-options ul a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.contact-options ul a:visited {
+    color: var(--primary-color);
+}
+
+.stargazer {
+    background-image: url(../images/stargazing.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    background-image: url(../images/calculator.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.reptile-tracker {
+    background-image: url(../images/gecko.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.homestead {
+    background-image: url(../images/rural-home.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.travel {
+    background-image: url(../images/ecuador.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Inline list */
+ul#list li {
+    display: inline;
+}
+ul#contactlist li {
+    display: inline;
+}
+
+/* Responsive Rules */
+@media only screen and (max-width: 768px) {
+    .work {
+        flex-direction: column;
+    }
+    .work-feature {
+        width: 100%;
+    }
+    .section-wrapper {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section-title {
+        width: 100%;
+        text-align: center;
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0px;
+        margin-bottom: 15px;
+    }
+    .contactlist a {
+        line-height: 50px;
+    }
+
+    header .navigation {
+        margin-bottom: 20px;
+    }
+  }
