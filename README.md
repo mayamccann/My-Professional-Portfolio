@@ -57,4 +57,13 @@ How can I use my HTML and CSS skills to improve the appearance of my webpage? Wh
 ## 💡Credits
 Code Source : applied throughout the entire process of rebuilding and refactoring for this web application! Credits are devoted to the UConn Coding Boot Camp Support Staff (Instructional Staff, TA, Tutors) and the program's activities and challenges materials and BootCamp Spot/Canvas and additional resources given throughout the course and outside research utilizing the Google Chrome browser of information relating to examples of HTML elements and CSS selectors and properties as well as further information utiliized when building this code received from BootCamp Spot/Canvas. Credits are reserved for resources besides my knowledge and skills to assist in completing this module challenge. Each assignment, material is constantly learned when managing the assignments. 
 
+## 💡Review 
+
+Deployed URL :
+https://mayamccann.github.io/My-Professional-Portfolio/
+
+GitHub URL :
+https://github.com/mayamccann/My-Professional-Portfolio
+
+
 🏆 Module 2 Challenge from the UConn Coding Bootcamp Cohort May 2023 🏆
