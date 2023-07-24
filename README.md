@@ -33,9 +33,11 @@ The following image shows the web application's appearance and functionality (Br
 
 Building a Webpage from Scratch to display My Professional Portfolio!
 
+![My Professional Portfolio Updated A](https://github.com/mayamccann/My-Professional-Portfolio/assets/112992245/c0d2dc84-2811-4c04-9fb7-c9eca270638a)
+
+
 ![My Professional Portfolio Updated B](https://github.com/mayamccann/My-Professional-Portfolio/assets/112992245/0654f136-a5a6-4296-9d9d-5f75b12f6d6f)
 
-![My Professional Portfolio Updated B](https://github.com/mayamccann/My-Professional-Portfolio/assets/112992245/e1173c9f-7013-47de-bc46-ee01a42322b0)
 
 ## 💡Grading Requirements : Brief Summary
 Technical Acceptance Criteria : 40%
