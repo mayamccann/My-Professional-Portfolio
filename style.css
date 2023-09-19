@@ -195,6 +195,12 @@ background-repeat=sets how background images are repeated*/
     background-repeat: no-repeat;
 }
 
+.CalorieQuest {
+    background-image: url(CalorieQuestPortfolio.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .miniproject {
     background-image: url(01-app-desktop.png);
     background-size: 100% 100%;
